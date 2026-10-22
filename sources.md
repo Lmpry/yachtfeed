@@ -76,3 +76,108 @@ Date checked: 2026-10-22 (America/New_York). Specs taken only from official buil
 - Galeon 800 FLY -> https://www.galeon.yachts/yachts/800-fly (checked 2026-10-22; photo: https://cdn.prod.website-files.com/6813296919873f36c5e54e46/6a8845af853bab11f82484f8_Galeon-800-FLY-1.avif)
 
 Notes: galeonyachts.com (www) returned 403; galeonyachts.com (bare) is a Greek dealer site, not the builder. Official Galeon site used: https://www.galeon.yachts/yachts . oceanalexander.com model pages are behind a SiteGround captcha for curl; read via the fetch tool, captcha not bypassed.
+
+## Added 2026-10-22 (second batch): Sunseeker, Ferretti Yachts, Riva, Sanlorenzo, Benetti
+
+Date checked: 2026-10-22 (America/New_York). Specs only from the official builder model pages below; '—' where not published. Imperial lengths for metric-only builders (Sanlorenzo) were converted from metres only for the hidden numeric `ft` filter value; displayed specs are verbatim.
+
+### Sunseeker
+
+- Sunseeker 100 Yacht -> https://www.sunseeker.com/range/100-yacht (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/603637beb43084ab79ffd98755bb152946bbde68-7421x4950.jpg)
+- Sunseeker 134 Superyacht -> https://www.sunseeker.com/range/134-superyacht (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/906620e1bdfbdef12e14559df88133b5041f33f2-2000x1414.jpg)
+- Sunseeker 76 Yacht -> https://www.sunseeker.com/range/76-yacht (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/70d76e87fdf71592ee26867c712cf82d3ec78e71-2157x1440.jpg)
+- Sunseeker 82 Ocean Enclosed -> https://www.sunseeker.com/range/82-ocean-enclosed (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/a6c9143d18f776187a038d08fabd58d9a0e7db25-2160x1440.jpg)
+- Sunseeker 86 Ocean Enclosed -> https://www.sunseeker.com/range/86-ocean-enclosed (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/17712e090183dfa4aa2ebbaea5b815a623ae2191-1744x962.jpg)
+- Sunseeker 88 Yacht -> https://www.sunseeker.com/range/88-yacht (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/0ed745b5141bee8813701943916be53409075076-1921x1440.jpg)
+- Sunseeker 90 Ocean -> https://www.sunseeker.com/range/90-ocean (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/e9a5a950cc7a6d5ab1d3fe0526cc97ec72c167d4-2158x1440.jpg)
+- Sunseeker 90 Ocean Enclosed -> https://www.sunseeker.com/range/90-ocean-enclosed (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/43595aeec5e2636f29412c429ea58c19fa79ead2-1922x1440.jpg)
+- Sunseeker Manhattan 56 -> https://www.sunseeker.com/range/manhattan-56 (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/ad330c028d682efc342b16ecacbc869c34804db0-2449x1377.jpg)
+- Sunseeker Manhattan 68 -> https://www.sunseeker.com/range/manhattan-68 (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/83512c44ec17c6a74282964d0c8aff59c3fa3b7d-5272x3948.jpg)
+- Sunseeker Manhattan 94 -> https://www.sunseeker.com/range/manhattan-94 (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/4b0e498e549a0a6c055b73298bc31832f2fed0ca-4595x3063.jpg)
+- Sunseeker Predator 55 -> https://www.sunseeker.com/range/predator-55 (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/3b1a8f7db8ad4a8f98cffe736e9e6ec10eed1532-2250x1500.jpg)
+- Sunseeker Predator 65 -> https://www.sunseeker.com/range/predator-65 (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/90df263a42c5ea3656c05006065da2d9a9ae1995-2003x1500.jpg)
+- Sunseeker Predator 65 SportFly -> https://www.sunseeker.com/range/predator-65-sportfly (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/ee0a7992f81cbdeb38845b15c22e5e180a066189-5280x2970.jpg)
+- Sunseeker Predator 75 -> https://www.sunseeker.com/range/predator-75 (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/a9cb8171787e6c0430aa7663398797117cd53be9-1922x1440.jpg)
+- Sunseeker Predator 75 SportFly -> https://www.sunseeker.com/range/predator-75-sportfly (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/ac7c1b0dd1343cf6399411cc9602e04c4e2eac43-1922x1440.jpg)
+- Sunseeker Superhawk 55 -> https://www.sunseeker.com/range/superhawk-55 (checked 2026-10-22; photo: https://587-sunseeker-sanity-assets.b-cdn.net/images/6clvyfvy/production/73fb4daff1e0cbef8d5d77733117ddb471cc704e-1922x1440.jpg)
+
+### Ferretti Yachts
+
+- Ferretti Yachts 1000 Skydeck -> https://www.ferretti-yachts.com/en-us/Flybridge/Model/p/1-328-546-PUB/n/Ferretti-Yachts-1000-SkyDeck (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99743.webp)
+- Ferretti Yachts 1000 -> https://www.ferretti-yachts.com/en-us/Flybridge/Model/p/1-286-430-PUB/n/Ferretti-Yachts-1000 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99543.webp)
+- Ferretti Yachts 500 -> https://www.ferretti-yachts.com/en-us/Flybridge/Model/p/1-285-426-PUB/n/Ferretti-Yachts-500 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99174.webp)
+- Ferretti Yachts 580 -> https://www.ferretti-yachts.com/en-us/Flybridge/Model/p/1-310-531-PUB/n/Ferretti-Yachts-580 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99380.webp)
+- Ferretti Yachts 670 -> https://www.ferretti-yachts.com/en-us/Flybridge/Model/p/1-338-577-PUB/n/Ferretti-Yachts-670 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99338.webp)
+- Ferretti Yachts 720 -> https://www.ferretti-yachts.com/en-us/Flybridge/Model/p/1-389-642-PUB/n/Ferretti-Yachts-720 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99402.webp)
+- Ferretti Yachts 800 -> https://www.ferretti-yachts.com/en-us/Flybridge/Model/p/1-384-633-PUB/n/Ferretti-Yachts-800 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99507.webp)
+- Ferretti Yachts 860 -> https://www.ferretti-yachts.com/en-us/Flybridge/Model/p/1-302-457-PUB/n/Ferretti-Yachts-860 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99683.webp)
+- Ferretti Yachts 940 -> https://www.ferretti-yachts.com/en-us/Flybridge/Model/p/1-339-579-PUB/n/Ferretti-Yachts-940 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99261.webp)
+- Ferretti Yachts INFYNITO 80 -> https://www.ferretti-yachts.com/en-us/Infynito/Model/p/1-337-576-PUB/n/Ferretti-Yachts-INFYNITO-80 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99059.webp)
+- Ferretti Yachts INFYNITO 90 -> https://www.ferretti-yachts.com/en-us/Infynito/Model/p/1-325-539-PUB/n/Ferretti-Yachts-INFYNITO-90 (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/PhotoGallery/Ferretti/99019.webp)
+
+### Riva
+
+- Riva El-Iseo -> https://www.riva-yacht.com/en-us/Model/p/2-319-523-PUB/n/Riva-El-Iseo (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/99939.webp)
+- Riva Iseo Super -> https://www.riva-yacht.com/en-us/Model/p/2-341-582-PUB/n/Riva-Iseo-Super (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100582.webp)
+- Riva Aquariva Special -> https://www.riva-yacht.com/en-us/Model/p/2-340-581-PUB/n/Riva-Aquariva-Special (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100594.webp)
+- Riva Rivamare -> https://www.riva-yacht.com/en-us/Model/p/2-152-252-PUB/n/Riva-Rivamare (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/101052.webp)
+- Riva Dolceriva -> https://www.riva-yacht.com/en-us/Model/p/2-282-422-PUB/n/Riva-Dolceriva (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100617.webp)
+- Riva 56' Rivale Super -> https://www.riva-yacht.com/en-us/Model/p/2-395-678-PUB/n/Riva-56'-Rivale-Super-New (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/102611.webp)
+- Riva 58' Capri -> https://www.riva-yacht.com/en-us/Model/p/2-387-640-PUB/n/Riva-58'-Capri (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100635.webp)
+- Riva 68' Diable -> https://www.riva-yacht.com/en-us/Model/p/2-289-439-PUB/n/Riva-68'-Diable (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100646.webp)
+- Riva 76' Bahamas Super -> https://www.riva-yacht.com/en-us/Model/p/2-317-518-PUB/n/Riva-76'-Bahamas-Super (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100657.webp)
+- Riva 66' Ribelle -> https://www.riva-yacht.com/en-us/Model/p/2-275-410-PUB/n/Riva-66'-Ribelle (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100667.webp)
+- Riva 76' Perseo Super -> https://www.riva-yacht.com/en-us/Model/p/2-287-436-PUB/n/Riva-76'-Perseo-Super (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100679.webp)
+- Riva 88' Folgore -> https://www.riva-yacht.com/en-us/Model/p/2-283-424-PUB/n/Riva-88'-Folgore (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100691.webp)
+- Riva 82' Diva -> https://www.riva-yacht.com/en-us/Model/p/2-332-551-PUB/n/Riva-82'-Diva (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100704.webp)
+- Riva 96' Argo Super -> https://www.riva-yacht.com/en-us/Model/p/2-394-674-PUB/n/Riva-96'-Argo-Super-New (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/102617.webp)
+- Riva 102' Corsaro Super -> https://www.riva-yacht.com/en-us/Model/p/2-301-456-PUB/n/Riva-102'-Corsaro-Super (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100727.webp)
+- Riva 112' Dolcevita Super -> https://www.riva-yacht.com/en-us/Model/p/2-343-584-PUB/n/Riva-112'-Dolcevita-Super (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100738.webp)
+- Riva 130' Bellissima -> https://www.riva-yacht.com/en-us/Model/p/2-290-441-PUB/n/Riva-130'-Bellissima (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/100750.webp)
+- Riva 54Metri -> https://www.riva-yacht.com/en-us/Superyacht/p/2-324-528-PUB/n/Riva-54METRI (checked 2026-10-22; photo: https://frg-fwm.azurewebsites.net/asset/fwm/Upload/Models/Images/Main/Riva/Main/101076.webp)
+
+### Sanlorenzo
+
+- Sanlorenzo 44X-Space -> https://www.sanlorenzoyacht.com/en/our-fleet/44x-space (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/44X-SPACE/exteriors/01---DJI_0021.jpg)
+- Sanlorenzo 50Steel -> https://www.sanlorenzoyacht.com/en/our-fleet/50-steel (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/50STEEL/exterior/2_%C2%A9Guillaume-Plisson-7808.jpg)
+- Sanlorenzo 500EXP -> https://www.sanlorenzoyacht.com/en/our-fleet/500-exp (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/500%20EXP/exteriors/1_Esterno_profilo.jpg)
+- Sanlorenzo 52Steel Neo -> https://www.sanlorenzoyacht.com/en/our-fleet/52-steel-neo (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/52%20STEEL%20NEO/exteriors/5_52STEEL-NEO_exteriors.jpg)
+- Sanlorenzo 58Steel -> https://www.sanlorenzoyacht.com/en/our-fleet/58steel (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/58STEEL/exteriors/01---58Steel.jpg)
+- Sanlorenzo 64Steel -> https://www.sanlorenzoyacht.com/en/our-fleet/64-steel (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/64%20STEEL/exteriors/1.-T746-64mSTL-C0033.jpg)
+- Sanlorenzo 74Steel Silver Fox -> https://www.sanlorenzoyacht.com/en/our-fleet/74steel-silver-fox (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/SL%20APAC/SL%20Superyachts/74STEEL%20SilverFox/250505_EDM_Silverfox_Drone_02_1261_MASTERx_Medium.jpg)
+- Sanlorenzo 74Steel Virtuosity -> https://www.sanlorenzoyacht.com/en/our-fleet/74steel-virtuosity (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/74steel-virtuosity/hero/VISTA_085_1.jpg)
+- Sanlorenzo Alloy -> https://www.sanlorenzoyacht.com/en/our-fleet/alloy (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/ALLOY/exteriors/01.jpg)
+- Sanlorenzo SHE -> https://www.sanlorenzoyacht.com/en/our-fleet/she (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/she/interiors/external_1.jpg)
+- Sanlorenzo SD118 -> https://www.sanlorenzoyacht.com/en/our-fleet/sd118 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SD118/interiors/00-SD118-profile.jpg)
+- Sanlorenzo SD132 -> https://www.sanlorenzoyacht.com/en/our-fleet/sd132 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SD132/exteriors/02-%E2%94%AC%C2%AEGuillaume-Plisson-for-Sanlorenzo-6655_J3A6655.jpg)
+- Sanlorenzo SD90 -> https://www.sanlorenzoyacht.com/en/our-fleet/sd90 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SD90/exteriors/01-SD90---profile_T.jpg)
+- Sanlorenzo SD96 -> https://www.sanlorenzoyacht.com/en/our-fleet/sd96 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SD96/exteriors/01-SD96-profile.jpg)
+- Sanlorenzo SL110A -> https://www.sanlorenzoyacht.com/en/our-fleet/sl110a (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SL110A/exteriors/01-Exteriors_SL110A.jpg)
+- Sanlorenzo SL120A -> https://www.sanlorenzoyacht.com/en/our-fleet/sl120a (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SL120A/exteriors/_MG_0268.jpg)
+- Sanlorenzo SL80A -> https://www.sanlorenzoyacht.com/en/our-fleet/sl80a (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/SL80A/Photo/Exteriors/SL80A%20bassa%20pi%C3%B9%20mare%20pi%C3%B9%20cielo.png)
+- Sanlorenzo SL86A -> https://www.sanlorenzoyacht.com/en/our-fleet/sl86a (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SL86A/exteriors/01---%C2%AEGuillaume-Plisson--5265_J3A5265.jpg)
+- Sanlorenzo SL90A -> https://www.sanlorenzoyacht.com/en/our-fleet/sl90a (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SL90A/exteriors/23-Esterno-copia.jpg)
+- Sanlorenzo SL96A -> https://www.sanlorenzoyacht.com/en/our-fleet/sl96a (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SL96A/exteriors/03_BMF5575.jpg)
+- Sanlorenzo SP110 -> https://www.sanlorenzoyacht.com/en/our-fleet/sp110 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SP110/externals/%C2%A9Guillaume-Plisson-for-Sanlorenzo-4231_1_50x.jpg)
+- Sanlorenzo SP92 -> https://www.sanlorenzoyacht.com/en/our-fleet/sp92 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SP92/externals/1_SP92_exteriors.jpg)
+- Sanlorenzo SX100 -> https://www.sanlorenzoyacht.com/en/our-fleet/sx100 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SX100/exteriors/1_SX100_exteriors.jpg)
+- Sanlorenzo SX120 -> https://www.sanlorenzoyacht.com/en/our-fleet/sx120 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SX120/exteriors/01---SX120---Exteriors_6.jpg)
+- Sanlorenzo SX76 -> https://www.sanlorenzoyacht.com/en/our-fleet/sx76 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SX76/exteriors/_MG_0828.jpg)
+- Sanlorenzo SX88 -> https://www.sanlorenzoyacht.com/en/our-fleet/sx88 (checked 2026-10-22; photo: https://www.sanlorenzoyacht.com/hubfs/our%20fleet/SX88/exteriors/SX88_04__ESTERNI_21_X-CAT_SX88.jpg)
+
+### Benetti
+
+- Benetti B.Loft 58M -> https://benettiyachts.com/yachts/b-loft/b-loft-58m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2025/09/BENETTI_BLOFT_58M_01.jpg)
+- Benetti B.Loft 65M -> https://benettiyachts.com/yachts/b-loft/b-loft-65m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2024/09/Benetti-Yachts-B.Loft-65M-Exteriors-00-Overview.jpg)
+- Benetti B.Neos 40M -> https://benettiyachts.com/yachts/b-neos/b-neos-40m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2025/09/Benetti-Yachts-BNeos-40M-01-Exterior-Pure-Elegance.jpg)
+- Benetti B.Now 52M -> https://benettiyachts.com/yachts/b-now/b-now-52m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2025/09/BENETTI_BNOW52M_REND_EST_RWD_CONSEGNA_17092025-3-EXTERNAL-VIEW.jpg)
+- Benetti B.Now 60M Oasis Deck -> https://benettiyachts.com/yachts/b-now/b-now-60m-oasis-deck/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2024/06/Benetti-Yachts-B-Now-60M-Exteriors-Overview.jpg)
+- Benetti B.Now 67M Oasis Deck -> https://benettiyachts.com/yachts/b-now/b-now-67m-oasis-deck/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2024/06/Benetti-Yachts-B-Now-67M-Exteriors-Overview-2.jpg)
+- Benetti B.Now 72M Oasis Deck -> https://benettiyachts.com/yachts/b-now/b-now-72m-oasis-deck/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2024/06/Benetti-Yachts-B-Now-72M-Exteriors-Overview.jpg)
+- Benetti B.Yond 40M -> https://benettiyachts.com/yachts/b-yond/b-yond-40m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2024/06/Benetti-Yachts-B-Yond-40M-Exteriors-00-Overview.jpg)
+- Benetti B.Yond 57M -> https://benettiyachts.com/yachts/b-yond/b-yond-57m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2024/06/Benetti-Yachts-B-Yond-57M-Exteriors-00-Overview.jpg)
+- Benetti Class 44M -> https://benettiyachts.com/yachts/class/class-44m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2024/06/Benetti-Yachts-Class-44M-Exteriors-00-Overview-1.jpg)
+- Benetti Motopanfilo 37M -> https://benettiyachts.com/yachts/motopanfilo/motopanfilo-37m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2024/06/Benetti-Yachts-Class-Motopanfilo-37M-Exteriors-00-Overview.jpg)
+- Benetti Motopanfilo 45M -> https://benettiyachts.com/yachts/motopanfilo/motopanfilo-45m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2024/06/Benetti-Yachts-Motopanfilo-45M-Exteriors-00-Overview.jpg)
+- Benetti Oasis 36M -> https://benettiyachts.com/yachts/oasis/oasis-36m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2026/09/Benetti-Yachts-Oasis-36M-05-Exteriors-Fullscreen.jpg)
+- Benetti Oasis 42M -> https://benettiyachts.com/yachts/oasis/oasis-42m/ (checked 2026-10-22; photo: https://benettiyachts.com/wp-content/uploads/2025/09/BENETTI_OASIS_42_REND_EST.jpg)
