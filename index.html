@@ -185,8 +185,8 @@ const name=y=>`${y.yr} ${y.make} ${y.m}`;
 [...new Set(Y.map(y=>y.make))].sort().forEach(b=>fb.add(new Option(b,b)));
 function render(){const b=fb.value,[lo,hi]=(fl.value||"0-9999").split("-").map(Number);
 const r=Y.filter(y=>(!b||y.make==b)&&y.ft>=lo&&y.ft<hi);
-feed.innerHTML=r.length?r.map(y=>`<article class="card" data-m="${y.m}"><div class="top"><span class="title">${name(y)}</span><span class="meta">Expected: TBD · TBD</span></div><img src="${y.img}" style="object-position:${POS[y.img]||"50% 50%"}" alt="${name(y)}" loading="lazy"></article>`).join(""):'<div class="empty">No listings match.</div>';}
-feed.onclick=e=>{const c=e.target.closest(".card");if(!c)return;const y=Y.find(z=>z.m==c.dataset.m);
-dt.textContent=name(y);db.innerHTML="<table>"+F.map(([l,k])=>`<tr><td>${l}</td><td>${y[k]||D}</td></tr>`).join("")+"</table><h4>Key features</h4><ul>"+(y.f.length?y.f.map(x=>`<li>${x}</li>`).join(""):"<li>"+D+"</li>")+"</ul>";dlg.showModal();};
+feed.innerHTML=r.length?r.map(y=>`<article class="card" data-k="${y.make}|${y.m}"><div class="top"><span class="title">${name(y)}</span><span class="meta">Expected: TBD · TBD</span></div><img src="${y.img}" style="object-position:${POS[y.img]||"50% 50%"}" alt="${name(y)}" loading="lazy"></article>`).join(""):'<div class="empty">No listings match.</div>';}
+feed.onclick=e=>{const c=e.target.closest(".card");if(!c)return;const y=Y.find(z=>z.make+"|"+z.m==c.dataset.k);
+dt.textContent=name(y);db.innerHTML="<table>"+F.map(([l,k])=>`<tr><td>${l}</td><td>${y[k]||D}</td></tr>`).join("")+"</table><h4>Key features</h4><ul>"+((y.f||[]).length?y.f.map(x=>`<li>${x}</li>`).join(""):"<li>"+D+"</li>")+"</ul>";dlg.showModal();};
 fb.onchange=fl.onchange=render;render();
 </script></body></html>
