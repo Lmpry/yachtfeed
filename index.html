@@ -2,8 +2,10 @@
 <style>
 *{box-sizing:border-box}body{margin:0;background:#000;color:#e7e9ea;font:15px/1.4 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 header{position:sticky;top:0;z-index:5;background:rgba(0,0,0,.75);backdrop-filter:blur(12px);border-bottom:1px solid #2f3336}
-.bar{max-width:600px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.logo{font-weight:800;font-size:20px;letter-spacing:-.5px;margin-right:auto}.logo span{color:#1d9bf0}
+.bar{max-width:600px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:12px}
+.logo{font-weight:800;font-size:28px;letter-spacing:-.5px;margin-right:auto;white-space:nowrap}
+.filters{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+@media(max-width:480px){.logo{font-size:24px}select{padding:5px 8px;font-size:13px}}.logo span{color:#1d9bf0}
 select{background:#16181c;color:#e7e9ea;border:1px solid #2f3336;border-radius:999px;padding:6px 12px;font:inherit}
 main{max-width:600px;margin:0 auto;border-left:1px solid #2f3336;border-right:1px solid #2f3336;min-height:100vh}
 .card{padding:14px 16px;border-bottom:1px solid #2f3336;cursor:pointer}.card:hover{background:#080808}
@@ -19,8 +21,8 @@ table{width:100%;border-collapse:collapse}td{padding:8px 16px;border-bottom:1px 
 ul{margin:6px 0 14px;padding:0 16px 0 34px}h4{margin:14px 16px 0;color:#71767b;font-weight:600;font-size:13px;text-transform:uppercase}
 </style></head><body>
 <header><div class="bar"><div class="logo">Yacht<span>Feed</span></div>
-<select id="fb"><option value="">All brands</option></select>
-<select id="fl"><option value="">All lengths</option><option value="0-65.62">Under 20 m</option><option value="65.62-98.43">20–30 m</option><option value="98.43-114.83">30–35 m</option><option value="114.83-9999">35 m +</option></select></div></header>
+<div class="filters"><select id="fb"><option value="">All brands</option></select>
+<select id="fl"><option value="">All lengths</option><option value="0-65.62">Under 20 m</option><option value="65.62-98.43">20–30 m</option><option value="98.43-114.83">30–35 m</option><option value="114.83-9999">35 m +</option></select></div></div></header>
 <main id="feed"></main>
 <dialog id="dlg"><div class="dh"><b id="dt"></b><button class="x" onclick="dlg.close()">×</button></div><div id="db"></div></dialog>
 <script>
@@ -91,12 +93,13 @@ const Y=[
 {m:"700 SKY",make:"Galeon",s:"Skydeck",ft:72.83,loa:"72.83 ft | 22,2 m",beam:"17.22 ft | 5,25 m",draft:"4.86 ft | 1,48 m",fuel:"1600 + 1750 l",water:"800 l",hold:"300 l",eng:"Max. power 2 x 882 / 1200 kW/HP",max:"Up to 30 knots",st:"4 + 1",heads:"3 en-suites / day head",f:["Grey water tank: 330 l"],img:"images/galeon-700-sky.jpg",c:"Poland",src:"https://www.galeon.yachts/yachts/700-sky"},
 {m:"800 FLY",make:"Galeon",s:"Flybridge",ft:84.35,loa:"84.35 ft | 25,71 m",beam:"19.03 ft | 5,8 m",draft:"4.53 ft | 1,38 m",fuel:"2 x 2735 l",water:"1000 + 670 l",hold:"860 l",eng:"Max. power 2 x 1432 / 1920 kW/HP",max:"Up to 31 knots",st:"4 + 1",heads:"4 en-suites / day head",f:["Grey water tank: 420 l"],img:"images/galeon-800-fly.jpg",c:"Poland",src:"https://www.galeon.yachts/yachts/800-fly"}
 ].map(y=>({yr:2026,make:"Ocean Alexander",c:"Taiwan",...y,img:y.img||"images/"+y.m.toLowerCase()+".jpg"}));
+const POS={"images/azimut-magellano-60.jpg":"50% 82%","images/azimut-magellano-66.jpg":"50% 72%","images/azimut-seadeck-9.jpg":"50% 70%","images/azimut-fly-62.jpg":"50% 68%","images/azimut-s6.jpg":"50% 62%","images/azimut-verve-48.jpg":"70% 50%","images/azimut-fly-82.jpg":"50% 60%"};
 const F=[["Series","s"],["LOA","loa"],["Waterline length","lwl"],["Beam","beam"],["Draft","draft"],["Displacement","disp"],["Fuel capacity","fuel"],["Water capacity","water"],["Holding capacity","hold"],["Gross tonnage","gt"],["Engines","eng"],["Generators","gen"],["Max speed","max"],["Cruise speed","cruise"],["Range","range"],["Staterooms","st"],["Heads","heads"],["Guests","guests"],["Crew","crew"],["Hull material","hull"],["Builder / Designer","des"]];
 const name=y=>`${y.yr} ${y.make} ${y.m}`;
 [...new Set(Y.map(y=>y.make))].forEach(b=>fb.add(new Option(b,b)));
 function render(){const b=fb.value,[lo,hi]=(fl.value||"0-9999").split("-").map(Number);
 const r=Y.filter(y=>(!b||y.make==b)&&y.ft>=lo&&y.ft<hi);
-feed.innerHTML=r.length?r.map(y=>`<article class="card" data-m="${y.m}"><div class="top"><span class="title">${name(y)}</span><span class="meta">Expected: TBD · TBD</span></div><img src="${y.img}" alt="${name(y)}" loading="lazy"></article>`).join(""):'<div class="empty">No listings match.</div>';}
+feed.innerHTML=r.length?r.map(y=>`<article class="card" data-m="${y.m}"><div class="top"><span class="title">${name(y)}</span><span class="meta">Expected: TBD · TBD</span></div><img src="${y.img}" style="object-position:${POS[y.img]||"50% 50%"}" alt="${name(y)}" loading="lazy"></article>`).join(""):'<div class="empty">No listings match.</div>';}
 feed.onclick=e=>{const c=e.target.closest(".card");if(!c)return;const y=Y.find(z=>z.m==c.dataset.m);
 dt.textContent=name(y);db.innerHTML="<table>"+F.map(([l,k])=>`<tr><td>${l}</td><td>${y[k]||D}</td></tr>`).join("")+"</table><h4>Key features</h4><ul>"+(y.f.length?y.f.map(x=>`<li>${x}</li>`).join(""):"<li>"+D+"</li>")+"</ul>";dlg.showModal();};
 fb.onchange=fl.onchange=render;render();
